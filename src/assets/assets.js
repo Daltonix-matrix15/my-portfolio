@@ -6,22 +6,14 @@ import {
   FaServer,
   FaMobileAlt,
   FaTools,
-  FaNodeJs,
-  FaStripe,
-  FaVuejs,
-  FaFire,
   FaDatabase,
   FaCloud,
-  FaRobot,
 } from "react-icons/fa";
 
 import profileImg from "../assets/profile.jpg";
 import projectImg1 from "../assets/project1.avif";
 import projectImg2 from "../assets/project2.avif";
 import projectImg3 from "../assets/project3.avif";
-import projectImg4 from "../assets/project4.avif";
-import projectImg5 from "../assets/project5.avif";
-import projectImg6 from "../assets/project6.avif";
 
 export const assets = {
   profileImg,
@@ -96,63 +88,33 @@ export const skills = [
 
 export const projects = [
   {
-    title: "E-Commerce Platform",
+    title: "Movie Search Engine",
     description:
       "A full-featured online store with shopping cart, user authentication, and payment processing.",
     image: projectImg1,
-    tech: ["React", "Node.js", "MongoDB", "Stripe"],
-    icons: [FaReact, FaNodeJs, FaDatabase, FaStripe],
-    demo: "#",
-    code: "#",
-  },
-  {
-    title: "Task Management App",
-    description:
-      "A productivity application with drag-and-drop functionality and real-time updates.",
-    image: projectImg2,
-    tech: ["Vue.js", "Firebase", "Tailwind CSS", "WebSockets"],
-    icons: [FaVuejs, FaFire, FaCloud, FaDatabase],
-    demo: "#",
-    code: "#",
-  },
-  {
-    title: "Fitness Tracker",
-    description:
-      "A mobile app for tracking workouts, nutrition, and health metrics.",
-    image: projectImg3,
-    tech: ["React Native", "GraphQL", "MySQL", "Chart.js"],
-    icons: [FaReact, FaDatabase],
-    demo: "#",
+    tech: ["React"],
+    icons: [FaReact],
+    demo: "https://movie-app-wine-sigma.vercel.app/",
     code: "#",
   },
   {
     title: "Portfolio Website",
     description:
       "A personal portfolio to showcase projects, skills, and blogs with dark/light mode support.",
-    image: projectImg4,
-    tech: ["Next.js", "Tailwind CSS", "Framer Motion", "Markdown"],
+    image: projectImg3,
+    tech: ["Tailwind CSS", "Framer Motion", "Markdown"],
     icons: [FaReact, FaCloud],
-    demo: "#",
+    demo: "https://my-portfolio-one-sable-24.vercel.app/",
     code: "#",
   },
   {
-    title: "Chat App",
+    title: "Meal Planner App",
     description:
-      "A real-time chat application with group messaging, emojis, and file sharing.",
-    image: projectImg5,
-    tech: ["Socket.IO", "React", "Node.js", "MongoDB"],
-    icons: [FaReact, FaNodeJs, FaDatabase],
-    demo: "#",
-    code: "#",
-  },
-  {
-    title: "AI Image Generator",
-    description:
-      "Generate images using AI prompts powered by OpenAI's DALL·E model and Cloudinary.",
-    image: projectImg6,
-    tech: ["React", "OpenAI API", "Cloudinary", "Tailwind CSS"],
-    icons: [FaRobot, FaReact, FaCloud],
-    demo: "#",
+      "A personal portfolio to showcase projects, skills, and blogs with dark/light mode support.",
+    image: projectImg2,
+    tech: ["Tailwind CSS", "Framer Motion", "Markdown"],
+    icons: [FaReact, FaCloud],
+    demo: "https://meal-planner-nhju.vercel.app/",
     code: "#",
   },
 ];
